@@ -78,15 +78,15 @@ a `sudo` password is required (run `passwd` if required first)
 
 # How to Temporarily Disable
 
-`touch /home/deck/.local/share/draksler/SDADSC/conf/disabled`
+`touch /home/deck/.local/share/scawp/SDADSC/conf/disabled`
 
-to re-enable `rm /home/deck/.local/share/draksler/SDADSC/conf/disabled`
+to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disabled`
 
 # Uninstallation
 
 Run the following codes:
 
-`sudo rm -r /home/deck/.local/share/draksler/SDADSC` #To delete the code
+`sudo rm -r /home/deck/.local/share/scawp/SDADSC` #To delete the code
 
 `sudo rm -r /etc/udev/rules.d/99-disable-steam-input.rules` #To delete the rule
 
