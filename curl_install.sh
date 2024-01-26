@@ -9,7 +9,7 @@
 #stop running script if anything returns an error (non-zero exit )
 set -e
 
-repo_url="https://github.com/draksler/Steam-Deck.Auto-Disable-Steam-Controller/blob/main"
+repo_url="https://raw.githubusercontent.com/draksler/Steam-Deck.Auto-Disable-Steam-Controller/blob/main"
 
 tmp_dir="/tmp/scawp.SDADSC.install"
 
