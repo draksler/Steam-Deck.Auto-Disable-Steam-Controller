@@ -72,21 +72,21 @@ Not Yet Implemented!
 
 ## Via Curl (One Line Install)
 
-In Konsole type `curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/main/curl_install.sh | bash`
+In Konsole type `curl -sSL https://raw.githubusercontent.com/draksler/Steam-Deck.Auto-Disable-Steam-Controller/main/curl_install.sh | bash`
 
 a `sudo` password is required (run `passwd` if required first)
 
 # How to Temporarily Disable
 
-`touch /home/deck/.local/share/scawp/SDADSC/conf/disabled`
+`touch /home/deck/.local/share/draksler/SDADSC/conf/disabled`
 
-to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disabled`
+to re-enable `rm /home/deck/.local/share/draksler/SDADSC/conf/disabled`
 
 # Uninstallation
 
 Run the following codes:
 
-`sudo rm -r /home/deck/.local/share/scawp/SDADSC` #To delete the code
+`sudo rm -r /home/deck/.local/share/draksler/SDADSC` #To delete the code
 
 `sudo rm -r /etc/udev/rules.d/99-disable-steam-input.rules` #To delete the rule
 
